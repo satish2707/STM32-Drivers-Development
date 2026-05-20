@@ -15,5 +15,6 @@ Each example should include:
 | Example | Driver |
 | --- | --- |
 | `uart_logger_usage.md` | `drivers/uart_logger` |
+| `uart_logger_basic/` | `drivers/uart_logger` |
 
 @copyright : Satish Kanawade. All rights reserved.
