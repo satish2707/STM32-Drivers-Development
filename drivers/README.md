@@ -19,5 +19,10 @@ drivers/<driver_name>/
   README.md
 ```
 
-@copyright : Satish Kanawade. All rights reserved.
+## Available Drivers
 
+| Driver | Version | Purpose |
+| --- | --- | --- |
+| `uart_logger` | `1.0.0` | Reusable STM32 HAL UART logger with formatted output and log levels. |
+
+@copyright : Satish Kanawade. All rights reserved.

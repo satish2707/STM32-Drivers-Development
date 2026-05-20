@@ -10,5 +10,10 @@ Each example should include:
 - `main.c` integration snippet
 - Expected output or test result
 
-@copyright : Satish Kanawade. All rights reserved.
+## Available Examples
 
+| Example | Driver |
+| --- | --- |
+| `uart_logger_usage.md` | `drivers/uart_logger` |
+
+@copyright : Satish Kanawade. All rights reserved.

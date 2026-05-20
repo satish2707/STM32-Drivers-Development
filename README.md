@@ -11,6 +11,7 @@ This repository is intended for STM32 device driver work using STM32CubeIDE, STM
 | Path | Purpose |
 | --- | --- |
 | `drivers/` | Reusable STM32 device driver modules. |
+| `drivers/uart_logger/` | Reusable UART logging library for STM32 HAL projects. |
 | `drivers/template/` | Starter `.c/.h` driver template with professional headers. |
 | `examples/` | Example usage notes and code snippets for drivers. |
 | `projects/` | Optional STM32CubeIDE project notes or board-specific demo projects. |
@@ -53,5 +54,8 @@ drivers/<driver_name>/
 
 ## Current Status
 
-Initial STM32 CubeIDE driver-development structure is ready. Add real STM32 device drivers inside `drivers/` using the provided template.
+STM32 CubeIDE driver-development structure is ready with the first reusable driver:
 
+| Driver | Version | Description |
+| --- | --- | --- |
+| `uart_logger` | `1.0.0` | Blocking HAL UART logger with levels, timestamps, formatted messages, and raw write helpers. |
